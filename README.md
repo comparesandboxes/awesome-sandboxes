@@ -28,6 +28,7 @@ Isolated compute where AI agents run untrusted code: compared on cold start, iso
 - **[CodeSandbox SDK](https://codesandbox.io/docs/sdk)**: Firecracker, git-versioned FS, sub-second forking (rebranding as Together Code Sandbox).
 - **[Freestyle](https://freestyle.sh)**: Full Linux KVM VMs with real root for AI app builders.
 - **[Morph](https://morphllm.com)**: Fast-apply model for editing files in a sandbox via MCP (a layer, not a full host).
+- **[Sandscale](https://sandscale.dev)**: Firecracker microVM per run, network off until an allowlist opens it, pause/resume keeps memory and files, billed per awake vCPU-hour.
 
 ## Enterprise, cloud & API sandboxes
 Vendor test environments for building against a platform without touching production. → [full comparison](https://comparesandboxes.com/enterprise-sandboxes)
